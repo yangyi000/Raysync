@@ -67,9 +67,8 @@
             <div class="raysync_client">
                 <p>raysync client</p>
                 <button onclick="login()">链接客户端</button>
-                <!-- getFileList('/')获取根目录下的文件列表，判断是否有目标文件夹存在，有直接上传，没有需要新建 -->
+                <!-- getFileList('/')获取根目录下的文件列表 -->
                 <button onclick="raysync.getFileList('/')"> LS</button>
-                <!-- 有目标文件夹 -->
                 <button onclick="raysync.upload(1,'/')">上传文件夹</button>
                 <button onclick="raysync.upload(0,'/')">上传文件</button>
                 <!-- 下载请传入实际存在的路径（path）和文件名（names） -->
